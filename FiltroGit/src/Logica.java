@@ -27,7 +27,7 @@ public class Logica {
 			break;
 
 		case '2':
-			fDos.pintar();
+			fDos.pintar(app.mouseX, app.mouseY);
 			break;
 
 		case '3':

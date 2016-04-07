@@ -8,7 +8,6 @@ public class MainApp extends PApplet {
 	public void setup() {
 		size(634, 686);
 		noStroke();
-		colorMode(HSB, 360, 100, 100);
 		imageMode(CENTER);
 	}
 

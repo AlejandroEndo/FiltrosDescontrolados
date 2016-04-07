@@ -22,8 +22,8 @@ public class FiltroUno {
 	}
 
 	public void pintar(int a, int b) {
-		for (int j = 0; j < bush.height; j++) {
-			for (int i = 0; i < bush.width; i++) {
+		for (int j = 0; j < torres.height; j++) {
+			for (int i = 0; i < torres.width; i++) {
 				int l = i + j * torres.width;
 				
 				if(PApplet.dist(a, b, i, j)< 200){
