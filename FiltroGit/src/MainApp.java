@@ -7,6 +7,7 @@ public class MainApp extends PApplet{
 	@Override
 	public void setup() {
 		size(634, 686);
+		noStroke();
 	}
 	
 	@Override
