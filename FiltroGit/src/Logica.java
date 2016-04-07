@@ -1,3 +1,5 @@
+import javax.xml.soap.Text;
+
 import processing.core.PApplet;
 
 public class Logica {
@@ -21,14 +23,6 @@ public class Logica {
 	}
 
 	public void pintar() {
-
-		color += 2;
-		app.fill(color, 100, 100);
-		app.ellipse(app.width / 2, app.height / 2, 50, 50);
-
-		if (color >= 350) {
-			color = 0;
-		}
 		switch (app.key) {
 		case '1':
 			fUno.pintar();
