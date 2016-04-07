@@ -1,5 +1,3 @@
-import javax.xml.soap.Text;
-
 import processing.core.PApplet;
 
 public class Logica {
@@ -25,7 +23,7 @@ public class Logica {
 	public void pintar() {
 		switch (app.key) {
 		case '1':
-			fUno.pintar();
+			fUno.pintar(app.mouseX, app.mouseY);
 			break;
 
 		case '2':
