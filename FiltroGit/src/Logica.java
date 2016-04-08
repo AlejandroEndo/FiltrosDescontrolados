@@ -31,7 +31,7 @@ public class Logica {
 			break;
 
 		case '3':
-			fTres.pintar();
+			fTres.pintar(app.mouseX, app.mouseY);
 			break;
 
 		case '4':
